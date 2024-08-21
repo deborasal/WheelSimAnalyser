@@ -15,7 +15,23 @@ clear;
 % Close all figure windows to start with a clean slate
 close all;
 
-%% 1. Setup and Directory Selection
+% Define the path to the functions
+% Get the full path to the current script
+scriptPath = mfilename('fullpath')
+
+% Navigate up to the project root by going up three directory levels
+projectRoot = uigetdir('', 'Select Root Directory');
+
+% Construct the path to the folder containing the required functions
+% functionsPath = fullfile(projectRoot,'WheelSimAnalyser');
+ % Adding the violin function path to the project
+ violinfunctionPath = fullfile(projectRoot,'violin');
+
+% Add the functions folder to MATLAB's search path
+addpath(projectRoot)
+addpath(violinfunctionPath)
+
+%% 1. DATA LOADING: Setup and Directory Selection
 
 % Prompt the user to select the root directory for the experiments
 % uigetdir opens a dialog box for the user to choose a directory
@@ -46,7 +62,7 @@ if ~isfolder(processedTablesDir)
     mkdir(processedTablesDir);
 end
 
-%% 2. Data Loading and Processing
+%% 2. DATA PRE-PROCESSING: Handling data quality issues
 
 % Initialize the physiologicalData structure
 physiologicalData = struct();
@@ -247,7 +263,7 @@ function systemData = processSystemData(participantFolder, systemData, experimen
     end
 end
 
-%% 2.1 Processing the Experiment 1 Group Folder
+%% 2.1 Pre-processing the Experiment 1 Group Folder
 
 % Initialize data structures
 physiologicalData = struct();
@@ -281,7 +297,7 @@ for i = 1:24
     end
 end
 
-%% 2.2 Processing each participant in Experiment 2
+%% 2.2 Pre-processing each participant in Experiment 2
 
 % Define the groups and corresponding IDs and participant counts for Experiment 2
 vrGroups = {'vr-high-jerk', 'vr-low-jerk'};
@@ -335,7 +351,7 @@ for g = 1:numel(vrGroups)
     end
 end
 
-%% 3. Feature Extraction - Data Analysis for:
+%% 3. DATA PROCESSING: Data Reformating and Feature Extraction
 %
 %  - Physiological Data - E4 wristband physiological metrics:
 %    a. Heart Rate (HR)
@@ -354,18 +370,7 @@ end
 %    c. Total Time of the Task
 %
 
-% Define the path to the functions
-% Get the full path to the current script
-scriptPath = mfilename('fullpath');
-
-% Navigate up to the project root by going up three directory levels
-projectRoot = fileparts(fileparts(fileparts(scriptPath)));
-
-% Construct the path to the folder containing the required functions
-functionsPath = fullfile(projectRoot, 'scripts', 'WheelSimAnalyzer');
-
-% Add the functions folder to MATLAB's search path
-addpath(functionsPath);
+%%
 
 
 % Helper function to get the file path matching a pattern
@@ -857,7 +862,7 @@ function analyzeSystemData(systemData, experiment, participant, processedTablesD
     end
 end
 
-%% 3.1 Data Analyze all participants in Experiment 1
+%% 3.1 DATA REFORMATTING & FEATURE EXTRACTION: Data Analyse all participants in Experiment 1
 % Display a message indicating the start of analysis for Experiment 1
 disp('Starting analysis for Experiment 1...');
 
@@ -877,7 +882,7 @@ for i = 1:24
     analyzeSystemData(systemData, 'experiment1', participant, processedTablesDir);
 end
 
-%% 3.2 Analyze all participants in Experiment 2
+%% 3.2 DATA REFORMATTING & FEATURE EXTRACTION: Data Analyse all participants in Experiment 2
 % Display a message indicating the start of analysis for Experiment 2
 disp('Starting analysis for Experiment 2...');
 
@@ -902,7 +907,7 @@ end
 
 
 
-%% 4. Compile all the features into tables in .mat and .xlsx
+%% 4. DATA INSIGHTS AGGREGATION: Compile all the features into tables in .mat and .xlsx
 
 % Function ADDTOFEATURETABLES - Aggregates data from multiple .mat files for 
 % physiological features, questionnaire data, and system data, and 
@@ -1212,18 +1217,15 @@ end
 disp('Analysis complete.');
 
 
-%% 6. Plotting the Data Analysis
+%% 5. DATA VISUALIZATION: Plotting the Data Analysis
 %
 % 1. Box Plot
 % 2. Histogram
 % 3. Violin
 % 4. Bar Chart
 
- % Adding the violin function path to the project
- violinfunctionPath = fullfile(functionsPath, 'violin');
-% Add the functions folder to MATLAB's search path
-addpath(violinfunctionPath);
-%% 6.1 Plotting the descriptive information for Physiolgical Data:
+
+%% 5.1 Plotting the descriptive information for Physiolgical Data:
 
 % Extract numerical columns
 numericalCols = targetColumnNames(~ismember(targetColumnNames, {'Participant', 'Experiment', 'metrics_type1'}));
@@ -1391,7 +1393,7 @@ statsPath = fullfile(processedTablesDir, 'descriptiveStats.xlsx');
 % Save results table to the specified directory
 writetable(resultsTable, statsPath);
 
-%% 6.2 Plotting Questionnaire and Performance Data:
+%% 5.2 Plotting Questionnaire and System (Performance) Data:
 % Load the data into MATLAB (assuming you have the data in a CSV file or MATLAB table)
 data = allTables;
 
@@ -1521,5 +1523,6 @@ for g = 1:length(metricGroups)
      
 
     %Save the figure as an image file
-    saveas(gcf, [processedTablesDir,figureNames{g}, '_comprehensive_plots.png']);
+    saveas(gcf, fullfile(processedTablesDir,[figureNames{g}, '_comprehensive_plots.png']));
+
 end
