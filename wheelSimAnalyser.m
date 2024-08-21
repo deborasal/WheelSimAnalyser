@@ -14,7 +14,7 @@ clc;
 clear;
 % Close all figure windows to start with a clean slate
 close all;
-
+    
 % Define the path to the functions
 % Get the full path to the current script
 scriptPath = mfilename('fullpath')
