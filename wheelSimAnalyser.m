@@ -20,10 +20,9 @@ close all;
 scriptPath = mfilename('fullpath')
 
 % Navigate up to the project root by going up three directory levels
-projectRoot = uigetdir('', 'Select Root Directory');
+projectRoot=genpath('~/wheelSimAnalyser/');
 
 % Construct the path to the folder containing the required functions
-% functionsPath = fullfile(projectRoot,'WheelSimAnalyser');
  % Adding the violin function path to the project
  violinfunctionPath = fullfile(projectRoot,'violin');
 
