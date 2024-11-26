@@ -1,13 +1,12 @@
-al
 %% WheelSimAnalyzer
 % This MATLAB Live Script is designed to analyze and visualize data from two different experiments:
 % - Experiment 1: Monitor-based experiment
 % - Experiment 2: VR-based experiment
 %
 % Author: Debora P.S.
-% Date: 22 Jul 2024
+% Date: 26 Nov 2024
 % Version: 1.0
-% MATLAB Version: 2024.a
+% MATLAB Version: 2024.b
 
 % Clear the command window to remove any previous outputs
 clc;
@@ -15,12 +14,28 @@ clc;
 clear;
 % Close all figure windows to start with a clean slate
 close all;
+    
+% Define the path to the functions
+% Get the full path to the current script
+scriptPath = mfilename('fullpath')
 
-%% 1. Setup and Directory Selection
+% Navigate up to the project root by going up three directory levels
+projectRoot=genpath('~/wheelSimAnalyser/');
+
+% Construct the path to the folder containing the required functions
+ % Adding the violin function path to the project
+ violinfunctionPath = fullfile(projectRoot,'violin');
+
+% Add the functions folder to MATLAB's search path
+addpath(projectRoot)
+addpath(violinfunctionPath)
+
+%% 1. DATA LOADING: Setup and Directory Selection
 
 % Prompt the user to select the root directory for the experiments
 % uigetdir opens a dialog box for the user to choose a directory
 rootDir = uigetdir('', 'Select Root Directory');
+
 
 % Verify that a directory was selected
 % If the user cancels the selection, uigetdir returns 0
@@ -47,7 +62,7 @@ if ~isfolder(processedTablesDir)
     mkdir(processedTablesDir);
 end
 
-%% 2. Data Loading and Processing
+%% 2. DATA PRE-PROCESSING: Handling data quality issues
 
 % Initialize the physiologicalData structure
 physiologicalData = struct();
@@ -248,7 +263,7 @@ function systemData = processSystemData(participantFolder, systemData, experimen
     end
 end
 
-%% 2.1 Processing the Experiment 1 Group Folder
+%% 2.1 Pre-processing the Experiment 1 Group Folder
 
 % Initialize data structures
 physiologicalData = struct();
@@ -282,7 +297,7 @@ for i = 1:24
     end
 end
 
-%% 2.2 Processing each participant in Experiment 2
+%% 2.2 Pre-processing each participant in Experiment 2
 
 % Define the groups and corresponding IDs and participant counts for Experiment 2
 vrGroups = {'vr-high-jerk', 'vr-low-jerk'};
@@ -336,7 +351,7 @@ for g = 1:numel(vrGroups)
     end
 end
 
-%% 3. Feature Extraction - Data Analysis for:
+%% 3. DATA PROCESSING: Data Reformating and Feature Extraction
 %
 %  - Physiological Data - E4 wristband physiological metrics:
 %    a. Heart Rate (HR)
@@ -355,18 +370,7 @@ end
 %    c. Total Time of the Task
 %
 
-% Define the path to the functions
-% Get the full path to the current script
-scriptPath = mfilename('fullpath');
-
-% Navigate up to the project root by going up three directory levels
-projectRoot = fileparts(fileparts(fileparts(scriptPath)));
-
-% Construct the path to the folder containing the required functions
-functionsPath = fullfile(projectRoot, 'scripts', 'WheelSimAnalyzer');
-
-% Add the functions folder to MATLAB's search path
-addpath(functionsPath);
+%%
 
 
 % Helper function to get the file path matching a pattern
@@ -858,7 +862,7 @@ function analyzeSystemData(systemData, experiment, participant, processedTablesD
     end
 end
 
-%% 3.1 Data Analyze all participants in Experiment 1
+%% 3.1 DATA REFORMATTING & FEATURE EXTRACTION: Data Analyse all participants in Experiment 1
 % Display a message indicating the start of analysis for Experiment 1
 disp('Starting analysis for Experiment 1...');
 
@@ -878,7 +882,7 @@ for i = 1:24
     analyzeSystemData(systemData, 'experiment1', participant, processedTablesDir);
 end
 
-%% 3.2 Analyze all participants in Experiment 2
+%% 3.2 DATA REFORMATTING & FEATURE EXTRACTION: Data Analyse all participants in Experiment 2
 % Display a message indicating the start of analysis for Experiment 2
 disp('Starting analysis for Experiment 2...');
 
@@ -903,7 +907,7 @@ end
 
 
 
-%% 4. Compile all the features into tables in .mat and .xlsx
+%% 4. DATA INSIGHTS AGGREGATION: Compile all the features into tables in .mat and .xlsx
 
 % Function ADDTOFEATURETABLES - Aggregates data from multiple .mat files for 
 % physiological features, questionnaire data, and system data, and 
@@ -1213,18 +1217,15 @@ end
 disp('Analysis complete.');
 
 
-%% 6. Plotting the Data Analysis
+%% 5. DATA VISUALIZATION: Plotting the Data Analysis
 %
 % 1. Box Plot
 % 2. Histogram
 % 3. Violin
 % 4. Bar Chart
 
- % Adding the violin function path to the project
- violinfunctionPath = fullfile(functionsPath, 'violin');
-% Add the functions folder to MATLAB's search path
-addpath(violinfunctionPath);
-%% 6.1 Plotting the descriptive information for Physiolgical Data:
+
+%% 5.1 Plotting the descriptive information for Physiolgical Data:
 
 % Extract numerical columns
 numericalCols = targetColumnNames(~ismember(targetColumnNames, {'Participant', 'Experiment', 'metrics_type1'}));
@@ -1266,21 +1267,21 @@ for i = 1:numel(numericalCols)
         % Box Plot
         subplot(2,2,1); % Box Plot in the first subplot
         boxplot(plotData.Value, {plotData.Experiment, plotData.MetricsType});
-        title(upper(sprintf('Box Plot - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 14);  % Uppercase title with bold text and increased font size
+        title(upper(sprintf('Box Plot - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 24);  % Uppercase title with bold text and increased font size
         ylabel('Value', 'FontWeight', 'bold', 'FontSize', 12);
-        xlabel('Experiment and Metrics Type', 'FontWeight', 'bold', 'FontSize', 12);
-        set(gca, 'FontWeight', 'bold', 'FontSize', 12);  % Increase font size for axis tick labels
+        xlabel('Experiment and Metrics Type', 'FontWeight', 'bold', 'FontSize', 24);
+        set(gca, 'FontWeight', 'bold', 'FontSize', 18);  % Increase font size for axis tick labels
         
         
         % Histogram
         subplot(2,2,2); % Histogram in the second subplot
      histogram(T_experiment_1.(metricStr), 'FaceColor', 'b', 'EdgeColor', 'k', 'FaceAlpha', 0.5); hold on;
         histogram(T_experiment_2.(metricStr), 'FaceColor', 'r', 'EdgeColor', 'k', 'FaceAlpha', 0.5);
-        title(upper(sprintf('Histogram - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 14);  % Uppercase title with bold text and increased font size
+        title(upper(sprintf('Histogram - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 24);  % Uppercase title with bold text and increased font size
         ylabel('Frequency', 'FontWeight', 'bold', 'FontSize', 12);
         xlabel(metricStrFormatted, 'FontWeight', 'bold', 'FontSize', 12);
-        legend('Experiment 1', 'Experiment 2', 'FontWeight', 'bold', 'FontSize', 10);
-          set(gca, 'FontWeight', 'bold', 'FontSize', 12); % Increase font size for axis tick labels
+        legend('Experiment 1', 'Experiment 2', 'FontWeight', 'bold', 'FontSize', 18);
+          set(gca, 'FontWeight', 'bold', 'FontSize', 24); % Increase font size for axis tick labels
         
         
         % Bar Chart
@@ -1307,10 +1308,10 @@ for i = 1:numel(numericalCols)
         % Plot bar chart
         b = bar(abs(barData), 'grouped');
         set(gca, 'XTickLabel', experiments, 'FontSize', 12,'FontWeight', 'bold');  % Increase font size for x-tick labels
-        title(upper(sprintf('Bar Chart - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 14);  % Uppercase title with bold text and increased font size
-        ylabel('Mean Value', 'FontWeight', 'bold', 'FontSize', 12);
-        xlabel('Metrics Type', 'FontWeight', 'bold', 'FontSize', 12);
-        legend(metricsTypes, 'Location', 'Best', 'FontWeight', 'bold', 'FontSize', 10);
+        title(upper(sprintf('Bar Chart - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 24);  % Uppercase title with bold text and increased font size
+        ylabel('Mean Value', 'FontWeight', 'bold', 'FontSize', 24);
+        xlabel('Metrics Type', 'FontWeight', 'bold', 'FontSize', 24);
+        legend(metricsTypes, 'Location', 'Best', 'FontWeight', 'bold', 'FontSize', 18);
         
         
         % Violin Plot
@@ -1325,9 +1326,9 @@ for i = 1:numel(numericalCols)
         else
             error('The violin function is not available. Please add it to your MATLAB path.');
         end
-        title(upper(sprintf('Violin Plot - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 14);  % Uppercase title with bold text and increased font size
-        ylabel('Value', 'FontWeight', 'bold', 'FontSize', 12);
-        set(gca, 'FontSize', 12, 'FontWeight', 'bold');  % Increase font size for axis tick labels
+        title(upper(sprintf('Violin Plot - %s', metricStrFormatted)), 'FontWeight', 'bold', 'FontSize', 24);  % Uppercase title with bold text and increased font size
+        ylabel('Value', 'FontWeight', 'bold', 'FontSize', 24);
+        set(gca, 'FontSize', 24, 'FontWeight', 'bold');  % Increase font size for axis tick labels
         
         % Compute descriptive statistics manually
         expList = unique(plotData.Experiment);
@@ -1380,7 +1381,8 @@ for i = 1:numel(numericalCols)
 
          % Save the figure
         saveas(gcf, fullfile(processedTablesDir, sprintf('Descriptive_Plots_%s.png', metricStrFormatted)));
-        
+        f=gcf;
+        print(f,sprintf('Descriptive_Plots_%s.svg', metricStrFormatted),'-dsvg')
         
     else
         warning('Metric %s is not present in one of the tables.', metricStr);
@@ -1392,7 +1394,7 @@ statsPath = fullfile(processedTablesDir, 'descriptiveStats.xlsx');
 % Save results table to the specified directory
 writetable(resultsTable, statsPath);
 
-%% 6.2 Plotting Questionnaire and Performance Data:
+%% 5.2 Plotting Questionnaire and System (Performance) Data:
 % Load the data into MATLAB (assuming you have the data in a CSV file or MATLAB table)
 data = allTables;
 
@@ -1522,5 +1524,6 @@ for g = 1:length(metricGroups)
      
 
     %Save the figure as an image file
-    saveas(gcf, [processedTablesDir,figureNames{g}, '_comprehensive_plots.png']);
+    saveas(gcf, fullfile(processedTablesDir,[figureNames{g}, '_comprehensive_plots.png']));
+
 end
