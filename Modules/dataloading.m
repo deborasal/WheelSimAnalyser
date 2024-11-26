@@ -18,7 +18,7 @@ close all;
 scriptPath = genpath('~/WheelSimAnalyser/SupportingFunctions/')
 
 % Navigate up to the project root by going up three directory levels
-projectRoot=genpath('~/wheelSimAnalyser/');
+projectRoot=genpath('~/WheelSimAnalyser/');
 
 % Construct the path to the folder containing the required functions
 % Adding the violin function path to the project
