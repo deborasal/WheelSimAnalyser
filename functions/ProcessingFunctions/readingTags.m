@@ -27,7 +27,7 @@ for i=1:length(tags_code)
 
 end
 
-tags_variables={'Sample_ID','start_test','end_test','start_baseline','end_baseline',};
+tags_variables={'Sample_ID','start_test','end_test','start_baseline','end_baseline'};
 
 % tags_timetable=table(user_ID,test_start_time,test_end_time,baseline_start_time, baseline_end_time,'VariableNames',tags_variables);
 tags_timetable=table({user_ID}, test_start_time, test_end_time, baseline_start_time, baseline_end_time, 'VariableNames', tags_variables); % Line 32
