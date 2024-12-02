@@ -49,9 +49,7 @@ slprj/
 work/
 temp/
 output/
-results/
-Result/
-data/
+
 *.mexa64
 *.mexw64
 *.mexmaci64
