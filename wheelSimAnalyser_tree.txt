@@ -1,0 +1,46 @@
+.
+├── LICENSE
+├── addProjectPaths.m
+├── dataloading.m
+├── preprocessing.m
+├── processing.m
+├── insightsaggregation.m
+├── datavisualization.m
+├── wheelSimAnalyser.m
+├── example
+│   └── small-dataset-example
+├── functions
+│   ├── DataLoadingFunctions
+│   │   ├── checkAndLoadJsonData.m
+│   │   ├── createDatasetJSON.m
+│   │   └── generateOrLoadJSON.m
+│   ├── InsightsAggregationFunctions
+│   │   ├── addToFeatureTables.m
+│   │   ├── alignColumns.m
+│   │   └── flattenStruct.m
+│   ├── PreprocessingFunctions
+│   │   ├── makeValidFieldName.m
+│   │   ├── processDirectory.m
+│   │   ├── processPhysiologicalData.m
+│   │   ├── processQuestionnaireData.m
+│   │   └── processSystemData.m
+│   ├── ProcessingFunctions
+│   │   ├── analysePhysiologicalData.m
+│   │   ├── analyseQuestionnaireData.m
+│   │   ├── analyseSystemData.m
+│   │   ├── calculateFeatureDifferences.m
+│   │   ├── extractEDAFeatures.m
+│   │   ├── extractingIBIFeatures.m
+│   │   ├── filteringTable.m
+│   │   ├── getFilePath.m
+│   │   ├── readingBVP.m
+│   │   ├── readingEDA.m
+│   │   ├── readingHR.m
+│   │   ├── readingIBI.m
+│   │   └── readingTags.m
+│   └── violin
+│       ├── license.txt
+│       └── violin.m
+├── previous-version
+│   └── version-1.0
+└── wheelSimAnalyser_tree.txt

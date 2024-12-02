@@ -1,0 +1,21 @@
+Type,Description,Values
+mental_raw,"How much mental add perceptual activity was required (for example, thinking, deciding, calculating, remembering, looking, searching, etc)? ",65
+mental_weight,"Mental weight",4
+mental_weighted,"Rating adjusted by the weight",260
+physical_raw,"How much physical activity was required (for example, pushing, pulling, turning, controlling, activating, etc.)? Was the task easy or demanding, slow or brisk, slack or strenuous, restful or laborious?",25
+physical_weight,"Physical weight",2
+physical_weighted,"Rating adjusted by the weight",50
+temporal_raw,"How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred? Was the pace slow and leisurely or rapid and frantic?",10
+temporal_weight,"Temporal weight",0
+temporal_weighted,"Rating adjusted by the weight",0
+performance_raw,"How successful do you think you were in accomplish the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplish these goals?",25
+performance_weight,"Performance weight",5
+performance_weighted,"Rating adjusted by the weight",125
+effort_raw,"How hard did you have to work (mentally and physically) to accomplish your level of performance?",15
+effort_weight,"Effort weight",3
+effort_weighted,"Rating adjusted by the weight",45
+frustration_raw,"How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?",25
+frustration_weight,"Frustration weight",1
+frustration_weighted,"Rating adjusted by the weight",25
+nasa_raw,"Total Demand",27.5
+nasa_weighted,"Total Demand Weighted",33.66666667

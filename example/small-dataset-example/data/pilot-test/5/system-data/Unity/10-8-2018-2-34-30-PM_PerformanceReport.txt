@@ -1,0 +1,234 @@
+
+10/8/2018 2:52:19 PM Unix Timestamp:1539006739060.32 Event: No movement
+10/8/2018 2:52:19 PM Unix Timestamp:1539006739311.15 Event: No movement
+10/8/2018 2:52:19 PM Unix Timestamp:1539006739561.62 Event: No movement
+10/8/2018 2:52:19 PM Unix Timestamp:1539006739811.12 Event: No movement
+10/8/2018 2:52:20 PM Unix Timestamp:1539006740061.61 Event: No movement
+10/8/2018 2:52:20 PM Unix Timestamp:1539006740312.08 Event: No movement
+10/8/2018 2:52:20 PM Unix Timestamp:1539006740561.6 Event: No movement
+10/8/2018 2:52:20 PM Unix Timestamp:1539006740811.6 Event: No movement
+10/8/2018 2:52:21 PM Unix Timestamp:1539006741062.33 Event: No movement
+10/8/2018 2:52:21 PM Unix Timestamp:1539006741312.22 Event: No movement
+10/8/2018 2:52:21 PM Unix Timestamp:1539006741562.67 Event: No movement
+10/8/2018 2:52:21 PM Unix Timestamp:1539006741813.05 Event: No movement
+10/8/2018 2:52:22 PM Unix Timestamp:1539006742063.46 Event: No movement
+10/8/2018 2:52:22 PM Unix Timestamp:1539006742312.81 Event: No movement
+10/8/2018 2:52:22 PM Unix Timestamp:1539006742563.48 Event: No movement
+10/8/2018 2:52:22 PM Unix Timestamp:1539006742813.87 Event: No movement
+10/8/2018 2:52:23 PM Unix Timestamp:1539006743064.35 Event: No movement
+10/8/2018 2:52:23 PM Unix Timestamp:1539006743314.59 Event: No movement
+10/8/2018 2:52:23 PM Unix Timestamp:1539006743564.92 Event: No movement
+10/8/2018 2:52:23 PM Unix Timestamp:1539006743814.96 Event: No movement
+10/8/2018 2:52:24 PM Unix Timestamp:1539006744064.3 Event: No movement
+10/8/2018 2:52:24 PM Unix Timestamp:1539006744314.71 Event: No movement
+10/8/2018 2:52:24 PM Unix Timestamp:1539006744565.37 Event: No movement
+10/8/2018 2:52:24 PM Unix Timestamp:1539006744815.44 Event: No movement
+10/8/2018 2:52:25 PM Unix Timestamp:1539006745066.79 Event: No movement
+10/8/2018 2:52:25 PM Unix Timestamp:1539006745316.95 Event: No movement
+10/8/2018 2:52:25 PM Unix Timestamp:1539006745567.28 Event: No movement
+10/8/2018 2:52:25 PM Unix Timestamp:1539006745833.57 Event: No movement
+10/8/2018 2:52:26 PM Unix Timestamp:1539006746069.01 Event: No movement
+10/8/2018 2:52:26 PM Unix Timestamp:1539006746334 Event: No movement
+10/8/2018 2:52:26 PM Unix Timestamp:1539006746583.35 Event: No movement
+10/8/2018 2:52:26 PM Unix Timestamp:1539006746833.68 Event: No movement
+10/8/2018 2:52:27 PM Unix Timestamp:1539006747071.05 Event: No movement
+10/8/2018 2:52:27 PM Unix Timestamp:1539006747334.34 Event: No movement
+10/8/2018 2:52:27 PM Unix Timestamp:1539006747583.68 Event: No movement
+10/8/2018 2:52:27 PM Unix Timestamp:1539006747838.63 Event: No movement
+10/8/2018 2:52:28 PM Unix Timestamp:1539006748084.49 Event: No movement
+10/8/2018 2:52:28 PM Unix Timestamp:1539006748337.2 Event: No movement
+10/8/2018 2:52:28 PM Unix Timestamp:1539006748584.54 Event: No movement
+10/8/2018 2:52:28 PM Unix Timestamp:1539006748834.87 Event: No movement
+10/8/2018 2:52:29 PM Unix Timestamp:1539006749103.59 Event: No movement
+10/8/2018 2:52:29 PM Unix Timestamp:1539006749335.17 Event: No movement
+10/8/2018 2:52:29 PM Unix Timestamp:1539006749585.61 Event: No movement
+10/8/2018 2:52:29 PM Unix Timestamp:1539006749835.94 Event: No movement
+10/8/2018 2:52:30 PM Unix Timestamp:1539006750086.49 Event: No movement
+10/8/2018 2:52:30 PM Unix Timestamp:1539006750336.46 Event: No movement
+10/8/2018 2:52:30 PM Unix Timestamp:1539006750586.79 Event: No movement
+10/8/2018 2:52:30 PM Unix Timestamp:1539006750836.15 Event: No movement
+10/8/2018 2:52:31 PM Unix Timestamp:1539006751087.47 Event: No movement
+10/8/2018 2:52:31 PM Unix Timestamp:1539006751336.81 Event: No movement
+10/8/2018 2:52:31 PM Unix Timestamp:1539006751587.15 Event: No movement
+10/8/2018 2:52:31 PM Unix Timestamp:1539006751837.48 Event: No movement
+10/8/2018 2:52:32 PM Unix Timestamp:1539006752103.77 Event: No movement
+10/8/2018 2:52:32 PM Unix Timestamp:1539006752337.47 Event: No movement
+10/8/2018 2:52:32 PM Unix Timestamp:1539006752591.49 Event: No movement
+10/8/2018 2:52:32 PM Unix Timestamp:1539006752838.04 Event: No movement
+10/8/2018 2:52:33 PM Unix Timestamp:1539006753104.57 Event: No movement
+10/8/2018 2:52:33 PM Unix Timestamp:1539006753338.93 Event: No movement
+10/8/2018 2:52:33 PM Unix Timestamp:1539006753605.78 Event: No movement
+10/8/2018 2:52:33 PM Unix Timestamp:1539006753839.18 Event: No movement
+10/8/2018 2:52:34 PM Unix Timestamp:1539006754105.65 Event: No movement
+10/8/2018 2:52:34 PM Unix Timestamp:1539006754340.58 Event: No movement
+10/8/2018 2:52:36 PM Unix Timestamp:1539006756540.89 Event: Start course
+10/8/2018 2:52:46 PM Unix Timestamp:1539006766882.42 Event: Right key pressed
+10/8/2018 2:52:48 PM Unix Timestamp:1539006768884.59 Event: No movement
+10/8/2018 2:52:48 PM Unix Timestamp:1539006768934.46 Event: Collision detected FrontRightSensor was collided against Handrail
+10/8/2018 2:52:49 PM Unix Timestamp:1539006769135.37 Event: Left key pressed
+10/8/2018 2:52:50 PM Unix Timestamp:1539006770635.29 Event: No movement
+10/8/2018 2:52:50 PM Unix Timestamp:1539006770885.39 Event: No movement
+10/8/2018 2:52:51 PM Unix Timestamp:1539006771135.28 Event: No movement
+10/8/2018 2:52:51 PM Unix Timestamp:1539006771636.6 Event: Forward key pressed
+10/8/2018 2:52:52 PM Unix Timestamp:1539006772903.43 Event: Right key pressed
+10/8/2018 2:52:55 PM Unix Timestamp:1539006775406.3 Event: Forward key pressed
+10/8/2018 2:52:56 PM Unix Timestamp:1539006776140.14 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:52:56 PM Unix Timestamp:1539006776406.6 Event: Right key pressed
+10/8/2018 2:52:58 PM Unix Timestamp:1539006778425.28 Event: No movement
+10/8/2018 2:52:58 PM Unix Timestamp:1539006778658.91 Event: No movement
+10/8/2018 2:53:00 PM Unix Timestamp:1539006780159.9 Event: No movement
+10/8/2018 2:53:00 PM Unix Timestamp:1539006780660.35 Event: Left key pressed
+10/8/2018 2:53:01 PM Unix Timestamp:1539006781411.07 Event: Right key pressed
+10/8/2018 2:53:02 PM Unix Timestamp:1539006782663.3 Event: No movement
+10/8/2018 2:53:02 PM Unix Timestamp:1539006782913.2 Event: Forward key pressed
+10/8/2018 2:53:03 PM Unix Timestamp:1539006783679.49 Event: Right key pressed
+10/8/2018 2:53:05 PM Unix Timestamp:1539006785180.52 Event: Forward key pressed
+10/8/2018 2:53:05 PM Unix Timestamp:1539006785981.11 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:53:06 PM Unix Timestamp:1539006786431.66 Event: Right key pressed
+10/8/2018 2:53:07 PM Unix Timestamp:1539006787682.5 Event: Forward key pressed
+10/8/2018 2:53:11 PM Unix Timestamp:1539006791936.89 Event: No movement
+10/8/2018 2:53:12 PM Unix Timestamp:1539006792187.15 Event: No movement
+10/8/2018 2:53:12 PM Unix Timestamp:1539006792688.59 Event: Right key pressed
+10/8/2018 2:53:13 PM Unix Timestamp:1539006793453.66 Event: Forward key pressed
+10/8/2018 2:53:14 PM Unix Timestamp:1539006794454.44 Event: Left key pressed
+10/8/2018 2:53:14 PM Unix Timestamp:1539006794954.92 Event: No movement
+10/8/2018 2:53:18 PM Unix Timestamp:1539006798457.42 Event: Forward key pressed
+10/8/2018 2:53:19 PM Unix Timestamp:1539006799458.02 Event: No movement
+10/8/2018 2:53:19 PM Unix Timestamp:1539006799711.86 Event: No movement
+10/8/2018 2:53:20 PM Unix Timestamp:1539006800225.64 Event: Left key pressed
+10/8/2018 2:53:23 PM Unix Timestamp:1539006803477.99 Event: Forward key pressed
+10/8/2018 2:53:25 PM Unix Timestamp:1539006805362.94 Event: Collision detected FrontRightSensor was collided against Handrail
+10/8/2018 2:53:25 PM Unix Timestamp:1539006805980.11 Event: No movement
+10/8/2018 2:53:26 PM Unix Timestamp:1539006806246.91 Event: Left key pressed
+10/8/2018 2:53:27 PM Unix Timestamp:1539006807231.17 Event: No movement
+10/8/2018 2:53:30 PM Unix Timestamp:1539006810734.96 Event: Forward key pressed
+10/8/2018 2:53:32 PM Unix Timestamp:1539006812001.76 Event: Left key pressed
+10/8/2018 2:53:34 PM Unix Timestamp:1539006814503.39 Event: Right key pressed
+10/8/2018 2:53:35 PM Unix Timestamp:1539006815504.23 Event: No movement
+10/8/2018 2:53:35 PM Unix Timestamp:1539006815754.48 Event: No movement
+10/8/2018 2:53:36 PM Unix Timestamp:1539006816004.55 Event: No movement
+10/8/2018 2:53:36 PM Unix Timestamp:1539006816504.94 Event: Forward key pressed
+10/8/2018 2:53:37 PM Unix Timestamp:1539006817255.63 Event: Right key pressed
+10/8/2018 2:53:38 PM Unix Timestamp:1539006818256.4 Event: Forward key pressed
+10/8/2018 2:53:39 PM Unix Timestamp:1539006819506.59 Event: No movement
+10/8/2018 2:53:39 PM Unix Timestamp:1539006819757.29 Event: No movement
+10/8/2018 2:53:40 PM Unix Timestamp:1539006820008.75 Event: No movement
+10/8/2018 2:53:41 PM Unix Timestamp:1539006821025.2 Event: No movement
+10/8/2018 2:53:41 PM Unix Timestamp:1539006821275.47 Event: No movement
+10/8/2018 2:53:41 PM Unix Timestamp:1539006821525.55 Event: Left key pressed
+10/8/2018 2:53:43 PM Unix Timestamp:1539006823526.61 Event: No movement
+10/8/2018 2:53:44 PM Unix Timestamp:1539006824277.15 Event: Forward key pressed
+10/8/2018 2:53:45 PM Unix Timestamp:1539006825278.51 Event: Left key pressed
+10/8/2018 2:53:46 PM Unix Timestamp:1539006826778.6 Event: No movement
+10/8/2018 2:53:47 PM Unix Timestamp:1539006827280.12 Event: Forward key pressed
+10/8/2018 2:53:48 PM Unix Timestamp:1539006828547.83 Event: Collision detected FrontRightSensor was collided against Handrail
+10/8/2018 2:53:48 PM Unix Timestamp:1539006828547.83 Event: Left key pressed
+10/8/2018 2:53:49 PM Unix Timestamp:1539006829282.35 Event: No movement
+10/8/2018 2:53:50 PM Unix Timestamp:1539006830284.28 Event: Forward key pressed
+10/8/2018 2:53:50 PM Unix Timestamp:1539006830799.52 Event: No movement
+10/8/2018 2:53:51 PM Unix Timestamp:1539006831800.32 Event: Collision detected FrontRightSensor was collided against Handrail
+10/8/2018 2:53:52 PM Unix Timestamp:1539006832801.13 Event: Left key pressed
+10/8/2018 2:53:53 PM Unix Timestamp:1539006833801.45 Event: Right key pressed
+10/8/2018 2:53:54 PM Unix Timestamp:1539006834051.53 Event: Forward key pressed
+10/8/2018 2:53:57 PM Unix Timestamp:1539006837554.81 Event: No movement
+10/8/2018 2:53:57 PM Unix Timestamp:1539006837804.3 Event: No movement
+10/8/2018 2:53:58 PM Unix Timestamp:1539006838054.22 Event: No movement
+10/8/2018 2:54:00 PM Unix Timestamp:1539006840573.58 Event: No movement
+10/8/2018 2:54:00 PM Unix Timestamp:1539006840822.9 Event: No movement
+10/8/2018 2:54:01 PM Unix Timestamp:1539006841073.42 Event: Left key pressed
+10/8/2018 2:54:03 PM Unix Timestamp:1539006843074.96 Event: Forward key pressed
+10/8/2018 2:54:03 PM Unix Timestamp:1539006843825.3 Event: Left key pressed
+10/8/2018 2:54:04 PM Unix Timestamp:1539006844326.18 Event: No movement
+10/8/2018 2:54:04 PM Unix Timestamp:1539006844576.46 Event: No movement
+10/8/2018 2:54:06 PM Unix Timestamp:1539006846077.42 Event: Forward key pressed
+10/8/2018 2:54:06 PM Unix Timestamp:1539006846845.46 Event: Left key pressed
+10/8/2018 2:54:08 PM Unix Timestamp:1539006848079.72 Event: Forward key pressed
+10/8/2018 2:54:09 PM Unix Timestamp:1539006849347.01 Event: No movement
+10/8/2018 2:54:09 PM Unix Timestamp:1539006849597.34 Event: No movement
+10/8/2018 2:54:10 PM Unix Timestamp:1539006850096.96 Event: Left key pressed
+10/8/2018 2:54:11 PM Unix Timestamp:1539006851098.33 Event: Forward key pressed
+10/8/2018 2:54:12 PM Unix Timestamp:1539006852599.81 Event: Left key pressed
+10/8/2018 2:54:14 PM Unix Timestamp:1539006854367.86 Event: No movement
+10/8/2018 2:54:14 PM Unix Timestamp:1539006854600.91 Event: No movement
+10/8/2018 2:54:15 PM Unix Timestamp:1539006855101.18 Event: Forward key pressed
+10/8/2018 2:54:15 PM Unix Timestamp:1539006855601.52 Event: Left key pressed
+10/8/2018 2:54:17 PM Unix Timestamp:1539006857103.34 Event: Forward key pressed
+10/8/2018 2:54:18 PM Unix Timestamp:1539006858623.01 Event: Left key pressed
+10/8/2018 2:54:19 PM Unix Timestamp:1539006859622.08 Event: Forward key pressed
+10/8/2018 2:54:20 PM Unix Timestamp:1539006860122.35 Event: No movement
+10/8/2018 2:54:24 PM Unix Timestamp:1539006864625.87 Event: No movement
+10/8/2018 2:54:26 PM Unix Timestamp:1539006866376.54 Event: No movement
+10/8/2018 2:54:26 PM Unix Timestamp:1539006866627.31 Event: Right key pressed
+10/8/2018 2:54:27 PM Unix Timestamp:1539006867744.97 Event: Collision detected RightSensor was collided against Handrail
+10/8/2018 2:54:28 PM Unix Timestamp:1539006868395.45 Event: No movement
+10/8/2018 2:54:28 PM Unix Timestamp:1539006868645.7 Event: Forward key pressed
+10/8/2018 2:54:28 PM Unix Timestamp:1539006868979.24 Event: Collision detected BackRightSensor was collided against Handrail
+10/8/2018 2:54:29 PM Unix Timestamp:1539006869395.88 Event: Right key pressed
+10/8/2018 2:54:32 PM Unix Timestamp:1539006872165.06 Event: No movement
+10/8/2018 2:54:32 PM Unix Timestamp:1539006872398.4 Event: No movement
+10/8/2018 2:54:32 PM Unix Timestamp:1539006872665.58 Event: No movement
+10/8/2018 2:54:33 PM Unix Timestamp:1539006873166.2 Event: Forward key pressed
+10/8/2018 2:54:33 PM Unix Timestamp:1539006873665.58 Event: No movement
+10/8/2018 2:54:33 PM Unix Timestamp:1539006873900.72 Event: Right key pressed
+10/8/2018 2:54:35 PM Unix Timestamp:1539006875667.87 Event: No movement
+10/8/2018 2:54:35 PM Unix Timestamp:1539006875901.3 Event: No movement
+10/8/2018 2:54:37 PM Unix Timestamp:1539006877419.13 Event: No movement
+10/8/2018 2:54:37 PM Unix Timestamp:1539006877685.87 Event: Forward key pressed
+10/8/2018 2:54:38 PM Unix Timestamp:1539006878135.45 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:54:38 PM Unix Timestamp:1539006878419.05 Event: Right key pressed
+10/8/2018 2:54:39 PM Unix Timestamp:1539006879921.12 Event: No movement
+10/8/2018 2:54:40 PM Unix Timestamp:1539006880420.49 Event: Forward key pressed
+10/8/2018 2:54:40 PM Unix Timestamp:1539006880705.08 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:54:41 PM Unix Timestamp:1539006881171.33 Event: Right key pressed
+10/8/2018 2:54:42 PM Unix Timestamp:1539006882422.26 Event: Forward key pressed
+10/8/2018 2:54:43 PM Unix Timestamp:1539006883342.1 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:54:44 PM Unix Timestamp:1539006884174.89 Event: Right key pressed
+10/8/2018 2:54:45 PM Unix Timestamp:1539006885175.31 Event: Forward key pressed
+10/8/2018 2:54:49 PM Unix Timestamp:1539006889445.06 Event: No movement
+10/8/2018 2:54:49 PM Unix Timestamp:1539006889694.94 Event: No movement
+10/8/2018 2:54:51 PM Unix Timestamp:1539006891446.68 Event: No movement
+10/8/2018 2:54:51 PM Unix Timestamp:1539006891696.07 Event: No movement
+10/8/2018 2:54:52 PM Unix Timestamp:1539006892197.32 Event: Left key pressed
+10/8/2018 2:54:54 PM Unix Timestamp:1539006894966.22 Event: No movement
+10/8/2018 2:54:54 PM Unix Timestamp:1539006894999.56 Event: Collision detected FrontLeftSensor was collided against Handrail
+10/8/2018 2:54:55 PM Unix Timestamp:1539006895200.29 Event: No movement
+10/8/2018 2:54:55 PM Unix Timestamp:1539006895466.63 Event: No movement
+10/8/2018 2:54:55 PM Unix Timestamp:1539006895966.33 Event: Right key pressed
+10/8/2018 2:54:56 PM Unix Timestamp:1539006896967.53 Event: No movement
+10/8/2018 2:54:57 PM Unix Timestamp:1539006897217.53 Event: No movement
+10/8/2018 2:54:58 PM Unix Timestamp:1539006898987.4 Event: No movement
+10/8/2018 2:54:59 PM Unix Timestamp:1539006899219.48 Event: No movement
+10/8/2018 2:54:59 PM Unix Timestamp:1539006899486.85 Event: No movement
+10/8/2018 2:54:59 PM Unix Timestamp:1539006899720 Event: Forward key pressed
+10/8/2018 2:55:00 PM Unix Timestamp:1539006900486.1 Event: No movement
+10/8/2018 2:55:00 PM Unix Timestamp:1539006900719.84 Event: No movement
+10/8/2018 2:55:01 PM Unix Timestamp:1539006901220.82 Event: Left key pressed
+10/8/2018 2:55:04 PM Unix Timestamp:1539006904474.52 Event: No movement
+10/8/2018 2:55:04 PM Unix Timestamp:1539006904739.5 Event: No movement
+10/8/2018 2:55:06 PM Unix Timestamp:1539006906241.74 Event: No movement
+10/8/2018 2:55:06 PM Unix Timestamp:1539006906491.35 Event: Forward key pressed
+10/8/2018 2:55:07 PM Unix Timestamp:1539006907242.2 Event: No movement
+10/8/2018 2:55:07 PM Unix Timestamp:1539006907492.28 Event: Left key pressed
+10/8/2018 2:55:09 PM Unix Timestamp:1539006909243.77 Event: No movement
+10/8/2018 2:55:09 PM Unix Timestamp:1539006909493.2 Event: No movement
+10/8/2018 2:55:11 PM Unix Timestamp:1539006911245.58 Event: Right key pressed
+10/8/2018 2:55:12 PM Unix Timestamp:1539006912246.59 Event: No movement
+10/8/2018 2:55:12 PM Unix Timestamp:1539006912496.17 Event: Forward key pressed
+10/8/2018 2:55:12 PM Unix Timestamp:1539006912996.62 Event: Left key pressed
+10/8/2018 2:55:14 PM Unix Timestamp:1539006914765.82 Event: Forward key pressed
+10/8/2018 2:55:15 PM Unix Timestamp:1539006915515.22 Event: Left key pressed
+10/8/2018 2:55:16 PM Unix Timestamp:1539006916515.8 Event: Forward key pressed
+10/8/2018 2:55:17 PM Unix Timestamp:1539006917366.85 Event: Collision detected FrontRightSensor was collided against Handrail
+10/8/2018 2:55:18 PM Unix Timestamp:1539006918017.21 Event: Left key pressed
+10/8/2018 2:55:19 PM Unix Timestamp:1539006919785.63 Event: No movement
+10/8/2018 2:55:20 PM Unix Timestamp:1539006920019.15 Event: No movement
+10/8/2018 2:55:20 PM Unix Timestamp:1539006920521.78 Event: Right key pressed
+10/8/2018 2:55:20 PM Unix Timestamp:1539006920786.44 Event: No movement
+10/8/2018 2:55:21 PM Unix Timestamp:1539006921019.79 Event: No movement
+10/8/2018 2:55:21 PM Unix Timestamp:1539006921286.12 Event: No movement
+10/8/2018 2:55:22 PM Unix Timestamp:1539006922020.76 Event: No movement
+10/8/2018 2:55:22 PM Unix Timestamp:1539006922520.98 Event: Forward key pressed
+10/8/2018 2:55:31 PM Unix Timestamp:1539006931482.97 Event: End of simulation
+Total time: 02:54
+Numer of Collisions: 13
+Number of Commands: 76

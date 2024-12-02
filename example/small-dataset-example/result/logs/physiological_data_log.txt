@@ -1,0 +1,45 @@
+
+Processing Participant: 1
+Experiment: pilot-test
+Participant Folder: data/pilot-test/1
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/1/physiological-data/e4
+Missing folder: data/pilot-test/1/physiological-data/LSL
+Missing folder: data/pilot-test/1/physiological-data/OpenFace
+Missing folder: data/pilot-test/1/physiological-data/OpenVibe
+
+Processing Participant: 2
+Experiment: pilot-test
+Participant Folder: data/pilot-test/2
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/2/physiological-data/e4
+Missing folder: data/pilot-test/2/physiological-data/LSL
+Missing folder: data/pilot-test/2/physiological-data/OpenFace
+Missing folder: data/pilot-test/2/physiological-data/OpenVibe
+
+Processing Participant: 3
+Experiment: pilot-test
+Participant Folder: data/pilot-test/3
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/3/physiological-data/e4
+Missing folder: data/pilot-test/3/physiological-data/LSL
+Missing folder: data/pilot-test/3/physiological-data/OpenFace
+Missing folder: data/pilot-test/3/physiological-data/OpenVibe
+
+Processing Participant: 4
+Experiment: pilot-test
+Participant Folder: data/pilot-test/4
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/4/physiological-data/e4
+Missing folder: data/pilot-test/4/physiological-data/LSL
+Missing folder: data/pilot-test/4/physiological-data/OpenFace
+Missing folder: data/pilot-test/4/physiological-data/OpenVibe
+
+Processing Participant: 5
+Experiment: pilot-test
+Participant Folder: data/pilot-test/5
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/5/physiological-data/e4
+Missing folder: data/pilot-test/5/physiological-data/LSL
+Missing folder: data/pilot-test/5/physiological-data/OpenFace
+Missing folder: data/pilot-test/5/physiological-data/OpenVibe
