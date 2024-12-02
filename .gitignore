@@ -1,0 +1,63 @@
+# Ignore backup and autosave files
+*.asv
+*.m~
+*.mlx~
+*.mat~
+*.tmp
+*.bak
+
+# Ignore MATLAB binary files
+*.mex*
+*.mlappinstall
+*.mlpkginstall
+
+# Ignore simulation files and outputs
+*.slxc
+*.slx~*
+*.mdl~
+*.sim
+*.log
+*.out
+*.dat
+*.h5
+
+# Ignore generated code and build artifacts
+codegen/
+slprj/
+*_ert_rtw/
+*.a
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.ipdb
+*.pdb
+
+# Ignore project-specific files
+*.prj
+*.mpc
+*.asv
+*.autosave
+
+# Ignore temporary, cached, and lock files
+.DS_Store
+*.lock
+*.cache
+
+# Ignore folders or files created by MATLAB
+work/
+temp/
+output/
+results/
+Result/
+data/
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mexglx
+
+# Ignore user-specific configuration files
+*.asv
+*.matlab_preferences
+*.matlab_settings
