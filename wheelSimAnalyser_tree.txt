@@ -2,45 +2,22 @@
 ├── LICENSE
 ├── addProjectPaths.m
 ├── dataloading.m
-├── preprocessing.m
-├── processing.m
-├── insightsaggregation.m
 ├── datavisualization.m
-├── wheelSimAnalyser.m
-├── example
+├── examples
 │   └── small-dataset-example
 ├── functions
 │   ├── DataLoadingFunctions
-│   │   ├── checkAndLoadJsonData.m
-│   │   ├── createDatasetJSON.m
-│   │   └── generateOrLoadJSON.m
+│   ├── DataVisualizationFunctions
 │   ├── InsightsAggregationFunctions
-│   │   ├── addToFeatureTables.m
-│   │   ├── alignColumns.m
-│   │   └── flattenStruct.m
 │   ├── PreprocessingFunctions
-│   │   ├── makeValidFieldName.m
-│   │   ├── processDirectory.m
-│   │   ├── processPhysiologicalData.m
-│   │   ├── processQuestionnaireData.m
-│   │   └── processSystemData.m
 │   ├── ProcessingFunctions
-│   │   ├── analysePhysiologicalData.m
-│   │   ├── analyseQuestionnaireData.m
-│   │   ├── analyseSystemData.m
-│   │   ├── calculateFeatureDifferences.m
-│   │   ├── extractEDAFeatures.m
-│   │   ├── extractingIBIFeatures.m
-│   │   ├── filteringTable.m
-│   │   ├── getFilePath.m
-│   │   ├── readingBVP.m
-│   │   ├── readingEDA.m
-│   │   ├── readingHR.m
-│   │   ├── readingIBI.m
-│   │   └── readingTags.m
 │   └── violin
-│       ├── license.txt
-│       └── violin.m
+├── insightsaggregation.m
+├── preprocessing.m
 ├── previous-version
 │   └── version-1.0
+├── processing.m
+├── wheelSimAnalyser.m
 └── wheelSimAnalyser_tree.txt
+
+57 directories, 214 files

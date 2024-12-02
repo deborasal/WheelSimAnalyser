@@ -13,7 +13,7 @@ function addProjectPaths()
     preprocessingfunctionsPath = fullfile(functionsPath, 'PreprocessingFunctions');
     processingfunctionsPath = fullfile(functionsPath, 'ProcessingFunctions');
     insightsAggregationfunctionsPath = fullfile(functionsPath, 'InsightsAggregationFunctions');
-    dataVisualizationfunctionsPath = fullfile(functionsPath, 'DataVisualizationFunctions');
+    dataVisualisationfunctionsPath = fullfile(functionsPath, 'DataVisualisationFunctions');
     violinFunctionPath = fullfile(functionsPath, 'violin');
 
     % Add paths to MATLAB search path
@@ -22,7 +22,7 @@ function addProjectPaths()
     addpath(preprocessingfunctionsPath);
     addpath(processingfunctionsPath);
     addpath(insightsAggregationfunctionsPath);
-    addpath(dataVisualizationfunctionsPath);
+    addpath(dataVisualisationfunctionsPath);
     addpath(violinFunctionPath);
 
     % Display a message indicating that paths have been added

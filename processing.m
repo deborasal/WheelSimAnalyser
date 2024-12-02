@@ -38,13 +38,13 @@ for expIdx = 1:length(experiments)
         idPattern = groups(g).idPattern;
 
         % Log message for the current group
-        disp(['Analyzing group: ', groupName, ' (', num2str(participantCount), ' participants)']);
+        disp(['Analysing group: ', groupName, ' (', num2str(participantCount), ' participants)']);
         
         % Loop through each participant in the group
         for i = 1:participantCount
             % Construct the participant ID based on the defined pattern
             participantId = sprintf(idPattern, i);
-            disp(['Analyzing participant: ', participantId]); % Debug statement
+            disp(['Analysing participant: ', participantId]); % Debug statement
             
             % Construct participant folder path
             participantFolder = fullfile(experimentDir, groupName, participantId);
@@ -55,10 +55,10 @@ for expIdx = 1:length(experiments)
                 analysePhysiologicalData(physiologicalData, experimentName, participantId, processedTablesDir);
 
                 % Analyze questionnaire data for the current participant
-                analyzeQuestionnaireData(questionnaireData, experimentName, participantId, processedTablesDir);
+                analyseQuestionnaireData(questionnaireData, experimentName, participantId, processedTablesDir);
                 
                 % Analyze system data for the current participant
-                analyzeSystemData(systemData, experimentName, participantId, processedTablesDir);
+                analyseSystemData(systemData, experimentName, participantId, processedTablesDir);
             else
                 % If participant folder does not exist, log it
                 disp(['Participant folder does not exist for: ', participantId]);

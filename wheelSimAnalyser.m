@@ -31,10 +31,10 @@ run('processing.m');  % This will call the processing script
 fprintf('Aggregating Insights...\n');
 run('insightsaggregation.m');  % This will call the insights aggregation script
 
-%% Step 5: Data Visualization
-% Generate visualizations based on the aggregated insights
-fprintf('Visualizing Data...\n');
-run('datavisualization.m');  % This will call the data visualization script
+%% Step 5: Data Visualisation
+% Generate visualisations based on the aggregated insights
+fprintf('Visualising Data...\n');
+run('datavisualisation.m');  % This will call the data visualization script
 
 % Display the completion message
 fprintf('Pipeline Complete.\n');
