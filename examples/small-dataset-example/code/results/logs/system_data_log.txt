@@ -1,0 +1,60 @@
+
+Processing Participant: 1
+Experiment: pilot-test
+Participant Folder: data/pilot-test/1
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/1/system-data/Unity
+
+Processing Participant: 2
+Experiment: pilot-test
+Participant Folder: data/pilot-test/2
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/2/system-data/Unity
+
+Processing Participant: 3
+Experiment: pilot-test
+Participant Folder: data/pilot-test/3
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/3/system-data/Unity
+
+Processing Participant: 4
+Experiment: pilot-test
+Participant Folder: data/pilot-test/4
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/4/system-data/Unity
+
+Processing Participant: 5
+Experiment: pilot-test
+Participant Folder: data/pilot-test/5
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/5/system-data/Unity
+
+Processing Participant: 1
+Experiment: pilot-test
+Participant Folder: data/pilot-test/1
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/1/system-data/Unity
+
+Processing Participant: 2
+Experiment: pilot-test
+Participant Folder: data/pilot-test/2
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/2/system-data/Unity
+
+Processing Participant: 3
+Experiment: pilot-test
+Participant Folder: data/pilot-test/3
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/3/system-data/Unity
+
+Processing Participant: 4
+Experiment: pilot-test
+Participant Folder: data/pilot-test/4
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/4/system-data/Unity
+
+Processing Participant: 5
+Experiment: pilot-test
+Participant Folder: data/pilot-test/5
+-------------------------------------------------
+Found and Processing folder: data/pilot-test/5/system-data/Unity

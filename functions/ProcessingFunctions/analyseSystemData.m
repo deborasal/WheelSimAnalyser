@@ -32,7 +32,7 @@ function analyseSystemData(systemData, experiment, participant, processedTablesD
         participantData = systemData.(makeValidFieldName(experiment)).(makeValidFieldName(participant)).Unity;
         
         % Define file paths based on experiment type
-        if strcmp(experiment, 'experiment-1-monitor')
+        if (strcmp(experiment, 'experiment-1-monitor') || strcmp(experiment, 'pilot-test'))
             % Handle .txt file
             txtFilePattern = '_PerformanceReport_txt';
             txtFilePath = getFilePath(participantData, txtFilePattern);

@@ -1,0 +1,14 @@
+{
+  "datasetDir": "examples/small-dataset-example/code/data/",
+  "resultsDir": "results/",
+  "experiments": {
+    "name": "pilot-test",
+    "dir": "examples/small-dataset-example/code/data/",
+    "groups": {
+      "name": "pilot-test",
+      "participantCount": 5,
+      "idPattern": "%d",
+      "groupDir": "examples/small-data-example/data/pilot-test/"
+    }
+  }
+}

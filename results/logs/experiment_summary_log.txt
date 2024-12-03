@@ -1,0 +1,30 @@
+Experiment Summary Log
+======================
+
+Experiment: pilot-test
+Directory: examples/small-dataset-example/code/data/
+
+  Group: pilot-test
+  Participant Count: 5
+  ID Pattern: %d
+  Group Folder Path: examples/small-dataset-example/code/data/pilot-test
+
+    Participant 1: examples/small-dataset-example/code/data/pilot-test/1
+      Folder exists.
+    Participant 2: examples/small-dataset-example/code/data/pilot-test/2
+      Folder exists.
+    Participant 3: examples/small-dataset-example/code/data/pilot-test/3
+      Folder exists.
+    Participant 4: examples/small-dataset-example/code/data/pilot-test/4
+      Folder exists.
+    Participant 5: examples/small-dataset-example/code/data/pilot-test/5
+      Folder exists.
+  Group Summary: 5 participants found, 0 participants missing.
+    Found Participants:
+      examples/small-dataset-example/code/data/pilot-test/1
+      examples/small-dataset-example/code/data/pilot-test/2
+      examples/small-dataset-example/code/data/pilot-test/3
+      examples/small-dataset-example/code/data/pilot-test/4
+      examples/small-dataset-example/code/data/pilot-test/5
+
+
