@@ -49,6 +49,7 @@ slprj/
 work/
 temp/
 output/
+data/dataset/
 
 *.mexa64
 *.mexw64

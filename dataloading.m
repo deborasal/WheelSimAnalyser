@@ -20,6 +20,7 @@ disp('Step 1 - Data Loading started');
 disp('Dataset Configuration');
 disp('1. Create a new dataset-structure.json');
 disp('2. Select an existing dataset-structure.json');
+disp('3. Use the predefined dataset-structure.json and default path');
 choice = input('Choose an option (1 or 2): ');
 
 if choice == 1
@@ -32,8 +33,11 @@ elseif choice == 2
         error('No file selected. Cannot proceed without a dataset structure.');
     end
     jsonFilePath = fullfile(filePath, fileName);
+elseif choice ==3
+    jsonFilePath = fullfile(pwd, 'results/dataset-structure.json');
+
 else
-    error('Invalid choice. Please restart and select either 1 or 2.');
+    error('Invalid choice. Please restart and select either 1,2 or 3.');
 end
 
 % altenative option without prompts(loading the WheelSimPhysio-2023 dataset-structure.jon):

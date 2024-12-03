@@ -1,30 +1,209 @@
 Experiment Summary Log
 ======================
 
-Experiment: pilot-test
-Directory: examples/small-dataset-example/code/data/
+Experiment: experiment-1-monitor
+Directory: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/
 
-  Group: pilot-test
-  Participant Count: 5
-  ID Pattern: %d
-  Group Folder Path: examples/small-dataset-example/code/data/pilot-test
+  Group: monitor
+  Participant Count: 24
+  ID Pattern: monitor-%d
+  Group Folder Path: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor
 
-    Participant 1: examples/small-dataset-example/code/data/pilot-test/1
+    Participant 1: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-1
       Folder exists.
-    Participant 2: examples/small-dataset-example/code/data/pilot-test/2
+    Participant 2: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-2
       Folder exists.
-    Participant 3: examples/small-dataset-example/code/data/pilot-test/3
+    Participant 3: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-3
       Folder exists.
-    Participant 4: examples/small-dataset-example/code/data/pilot-test/4
+    Participant 4: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-4
       Folder exists.
-    Participant 5: examples/small-dataset-example/code/data/pilot-test/5
+    Participant 5: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-5
       Folder exists.
-  Group Summary: 5 participants found, 0 participants missing.
+    Participant 6: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-6
+      Folder exists.
+    Participant 7: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-7
+      Folder exists.
+    Participant 8: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-8
+      Folder exists.
+    Participant 9: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-9
+      Folder exists.
+    Participant 10: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-10
+      Folder exists.
+    Participant 11: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-11
+      Folder exists.
+    Participant 12: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-12
+      Folder exists.
+    Participant 13: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-13
+      Folder exists.
+    Participant 14: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-14
+      Folder exists.
+    Participant 15: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-15
+      Folder exists.
+    Participant 16: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-16
+      Folder exists.
+    Participant 17: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-17
+      Folder exists.
+    Participant 18: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-18
+      Folder exists.
+    Participant 19: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-19
+      Folder exists.
+    Participant 20: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-20
+      Folder exists.
+    Participant 21: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-21
+      Folder exists.
+    Participant 22: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-22
+      Folder exists.
+    Participant 23: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-23
+      Folder exists.
+    Participant 24: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-24
+      Folder exists.
+  Group Summary: 24 participants found, 0 participants missing.
     Found Participants:
-      examples/small-dataset-example/code/data/pilot-test/1
-      examples/small-dataset-example/code/data/pilot-test/2
-      examples/small-dataset-example/code/data/pilot-test/3
-      examples/small-dataset-example/code/data/pilot-test/4
-      examples/small-dataset-example/code/data/pilot-test/5
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-1
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-2
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-3
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-4
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-5
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-6
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-7
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-8
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-9
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-10
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-11
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-12
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-13
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-14
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-15
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-16
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-17
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-18
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-19
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-20
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-21
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-22
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-23
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-1-monitor/monitor/monitor-24
+
+
+Experiment: experiment-2-vr
+Directory: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/
+
+  Group: vr-high-jerk
+  Participant Count: 18
+  ID Pattern: vr-highjerk-%d
+  Group Folder Path: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk
+
+    Participant 1: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-1
+      Folder exists.
+    Participant 2: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-2
+      Folder exists.
+    Participant 3: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-3
+      Folder exists.
+    Participant 4: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-4
+      Folder exists.
+    Participant 5: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-5
+      Folder exists.
+    Participant 6: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-6
+      Folder exists.
+    Participant 7: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-7
+      Folder exists.
+    Participant 8: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-8
+      Folder exists.
+    Participant 9: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-9
+      Folder exists.
+    Participant 10: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-10
+      Folder exists.
+    Participant 11: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-11
+      Folder exists.
+    Participant 12: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-12
+      Folder exists.
+    Participant 13: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-13
+      Folder exists.
+    Participant 14: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-14
+      Folder exists.
+    Participant 15: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-15
+      Folder exists.
+    Participant 16: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-16
+      Folder exists.
+    Participant 17: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-17
+      Folder exists.
+    Participant 18: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-18
+      Folder exists.
+  Group Summary: 18 participants found, 0 participants missing.
+    Found Participants:
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-1
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-2
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-3
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-4
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-5
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-6
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-7
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-8
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-9
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-10
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-11
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-12
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-13
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-14
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-15
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-16
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-17
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-high-jerk/vr-highjerk-18
+
+  Group: vr-low-jerk
+  Participant Count: 16
+  ID Pattern: vr-lowjerk-%d
+  Group Folder Path: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk
+
+    Participant 1: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-1
+      Folder exists.
+    Participant 2: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-2
+      Folder exists.
+    Participant 3: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-3
+      Folder exists.
+    Participant 4: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-4
+      Folder exists.
+    Participant 5: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-5
+      Folder exists.
+    Participant 6: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-6
+      Folder exists.
+    Participant 7: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-7
+      Folder exists.
+    Participant 8: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-8
+      Folder exists.
+    Participant 9: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-9
+      Folder exists.
+    Participant 10: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-10
+      Folder exists.
+    Participant 11: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-11
+      Folder exists.
+    Participant 12: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-12
+      Folder exists.
+    Participant 13: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-13
+      Folder exists.
+    Participant 14: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-14
+      Folder exists.
+    Participant 15: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-15
+      Folder exists.
+    Participant 16: /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-16
+      Folder exists.
+  Group Summary: 16 participants found, 0 participants missing.
+    Found Participants:
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-1
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-2
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-3
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-4
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-5
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-6
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-7
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-8
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-9
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-10
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-11
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-12
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-13
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-14
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-15
+      /Users/deborasalgado/Documents/GitHub/WheelSimPhysio-2023/data/dataset/experiment-2-vr/vr-low-jerk/vr-lowjerk-16
 
 
