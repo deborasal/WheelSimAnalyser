@@ -1,4 +1,4 @@
-% Function ANALYZEQUESTIONNAIREDATA Processes and saves questionnaire data for a given participant.
+% Function ANALYSEQUESTIONNAIREDATA Processes and saves questionnaire data for a given participant.
     %
     % INPUTS:
     %   data               - A structure containing questionnaire data for multiple participants and experiments.
@@ -18,7 +18,7 @@
     % 4. Creates a structure to hold the questionnaire features, including participant ID, experiment ID, and data.
     % 5. Saves the questionnaire data and features into a .mat file in the specified directory.
     % 6. Displays debug messages indicating the processing steps and paths of the saved files.
-function analyzeQuestionnaireData(data, experiment, participant, processedTablesDir)
+function analyseQuestionnaireData(data, experiment, participant, processedTablesDir)
     % Display message indicating the start of questionnaire data processing
     disp(['Processing questionnaire data for ', experiment, ' - ', participant]); % Debug statement
     

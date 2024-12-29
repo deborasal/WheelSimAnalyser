@@ -1,4 +1,4 @@
- % Function ANALYZESYSTEMDATA Processes and saves system data for a given participant based on the experiment type.
+ % Function ANALYSESYSTEMDATA Processes and saves system data for a given participant based on the experiment type.
     %
     % INPUTS:
     %   systemData         - A structure containing system data for multiple participants and experiments.
@@ -20,7 +20,7 @@
     % 3. Creates a structure to hold the system data features, including participant ID, experiment ID, and extracted metrics.
     % 4. Saves the processed system data and features into a .mat file in the specified directory.
     % 5. Displays debug messages indicating the processing steps, file paths, and results.
-function analyzeSystemData(systemData, experiment, participant, processedTablesDir)
+function analyseSystemData(systemData, experiment, participant, processedTablesDir)
     % Display message indicating the start of system data processing
     disp(['Processing system data for ', experiment, ' - ', participant]); % Debug statement
     
@@ -32,7 +32,7 @@ function analyzeSystemData(systemData, experiment, participant, processedTablesD
         participantData = systemData.(makeValidFieldName(experiment)).(makeValidFieldName(participant)).Unity;
         
         % Define file paths based on experiment type
-        if strcmp(experiment, 'pilot-test')
+        if strcmp(experiment, 'pilot-test') %% NOTE: Changed from "Experimnent-Type" to "pilot-test" 
             % Handle .txt file
             txtFilePattern = '_PerformanceReport_txt';
             txtFilePath = getFilePath(participantData, txtFilePattern);
